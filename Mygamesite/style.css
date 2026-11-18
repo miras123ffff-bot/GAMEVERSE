@@ -1,0 +1,178 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0b0712;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+ottom: 1px soliheader {
+    background: #160d24;
+    padding: 25px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   border-bottom: 1px solid #7025b5;
+}
+
+header h1 {
+    color: #b65cff;
+    font-size: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+nav a:hover {
+    color: #b65cff;
+}
+
+main {
+    padding: 50px 8%;
+    text-align: center;
+}
+
+main h2 {
+    color: #bd75ff;
+    margin-bottom: 20px;
+}
+
+main p {
+    color: #c5b8d3;
+}
+
+#games {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.game-card {
+    background: #1a1028;
+    border: 1px solid #49236b;
+    border-radius: 14px;
+    overflow: hidden;
+    transition: 0.3s;
+    text-align: left;
+}
+
+.game-card:hover {
+    transform: translateY(-7px);
+    border-color: #bd75ff;
+    box-shadow: 0 0 20px #8125c566;
+}
+
+.game-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+}
+
+.game-info {
+    padding: 18px;
+}
+
+.game-info h3 {
+    color: #d6a5ff;
+    margin-bottom: 12px;
+}
+
+.game-info p {
+    margin-bottom: 8px;
+    color: #c5b8d3;
+}
+
+.game-card button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    background: #7829b5;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.game-card button:hover {
+    background: #a34ce5;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #9585a5;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav a {
+        margin: 0 7px;
+    }
+
+    main {
+        padding: 35px 5%;
+    }
+}
+#search {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    margin: 20px auto;
+    background: #1a1028;
+    border: 1px solid #7025b5;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+}
+/* Главный экран GAMEVERSE */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    margin: 30px auto;
+    background: linear-gradient(135deg, #160d2b, #35105c, #160d2b);
+    border: 1px solid #7136b5;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(128, 0, 255, 0.25);
+}
+
+.hero h2 {
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    color: #d5c2f5;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.hero-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 28px;
+    background: #7828d7;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.hero-button:hover {
+    background: #a34cff;
+    transform: scale(1.05);
+}
