@@ -218,3 +218,16 @@ body:has(.game-background) footer {
 .witcher-page footer {
     background-color: transparent;
 }
+/* Фон страницы GTA V */
+.gta-page {
+    background:
+        linear-gradient(rgba(11, 7, 18, 0.55), rgba(11, 7, 18, 0.55)),
+        url("gta-bg.jpg") center center / cover fixed no-repeat;
+    background-color: #0b0712;
+}
+
+.gta-page header,
+.gta-page main,
+.gta-page footer {
+    background-color: transparent;
+}
