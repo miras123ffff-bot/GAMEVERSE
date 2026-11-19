@@ -244,3 +244,16 @@ body:has(.game-background) footer {
 .reddead-page footer {
     background-color: transparent;
 }
+/* Фон страницы Assassin's Creed II */
+.ac2-page {
+    background:
+        linear-gradient(rgba(11, 7, 18, 0.55), rgba(11, 7, 18, 0.55)),
+        url("ac2-bg.jpg") center center / cover fixed no-repeat;
+    background-color: #0b0712;
+}
+
+.ac2-page header,
+.ac2-page main,
+.ac2-page footer {
+    background-color: transparent;
+}
