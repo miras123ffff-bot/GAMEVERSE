@@ -231,3 +231,16 @@ body:has(.game-background) footer {
 .gta-page footer {
     background-color: transparent;
 }
+/* Фон страницы Red Dead Redemption 2 */
+.reddead-page {
+    background:
+        linear-gradient(rgba(11, 7, 18, 0.55), rgba(11, 7, 18, 0.55)),
+        url("reddead-bg.jpg") center center / cover fixed no-repeat;
+    background-color: #0b0712;
+}
+
+.reddead-page header,
+.reddead-page main,
+.reddead-page footer {
+    background-color: transparent;
+}
