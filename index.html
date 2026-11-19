@@ -31,7 +31,12 @@
     id="search"
     placeholder="Поиск игр..."
 >
-        <div id="games">
+       <div class="genre-buttons">
+    <button onclick="filterGenre('Все')">Все игры</button>
+    <button onclick="filterGenre('RPG')">RPG</button>
+    <button onclick="filterGenre('Экшен')">Экшен</button>
+    <button onclick="filterGenre('Приключения')">Приключения</button>
+</div> <div id="games">
             Здесь скоро появится каталог игр!
         </div>
     </main>
