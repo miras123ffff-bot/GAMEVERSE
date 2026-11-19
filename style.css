@@ -257,3 +257,46 @@ body:has(.game-background) footer {
 .ac2-page footer {
     background-color: transparent;
 }
+/* Новый дизайн карточек GAMEVERSE */
+.game-card {
+    background: #160d24;
+    border: 1px solid #7025b5;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 0 25px rgba(112, 37, 181, 0.65);
+}
+
+.game-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.game-info {
+    padding: 18px;
+}
+
+.game-info h3 {
+    color: #d7a5ff;
+    margin-bottom: 10px;
+}
+
+.game-info button {
+    background: #7025b5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.game-info button:hover {
+    background: #9b45e8;
+}
